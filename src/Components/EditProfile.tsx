@@ -22,8 +22,6 @@ const EditProfile = () => {
 
   return (
     <>
-      {/* <Button onClick={onOpen}>Open Modal</Button> */}
-
       <Modal
         initialFocusRef={initialRef}
         finalFocusRef={finalRef}

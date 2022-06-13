@@ -11,16 +11,11 @@ import {
 import * as React from "react";
 import { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
-import { Link, Route, Routes, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Form from "./Form";
 
 const Cards = (): any => {
-  const [users, setUsers] = useState([
-    {
-      name: "",
-      id: "",
-    },
-  ]);
+  const [users, setUsers] = useState([{}]);
 
   useEffect(() => {
     fetch("http://localhost:8000/users?_page=1&_limit=6")
@@ -39,7 +34,6 @@ const Cards = (): any => {
     return data;
   };
   const handlePageClick = async (data: any) => {
-    // console.log(data.selected);
     let currentPage = data.selected + 1;
     const usersFromServer = await fetchUsers(currentPage);
     setUsers(usersFromServer);
@@ -83,7 +77,6 @@ const Cards = (): any => {
           </Box>
         ))}
       </SimpleGrid>
-      {/* <Profile /> */}
 
       <Center>
         <ReactPaginate

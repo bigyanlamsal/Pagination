@@ -87,7 +87,7 @@ const Profile = () => {
           duration: 2000,
           isClosable: true,
         });
-        setTimeout(() => navigate("/"), 500);
+        setTimeout(() => navigate("/"), 5000);
       }
     });
   };

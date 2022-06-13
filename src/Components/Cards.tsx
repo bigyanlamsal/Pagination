@@ -66,6 +66,7 @@ const Cards = (): any => {
                 alt="Dan Abramov"
               ></Image>
             </Center>
+            {/* Comment 1 */}
             <Text>{item.name}</Text>
             <Center>
               <WrapItem gap="4">

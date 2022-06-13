@@ -1,5 +1,4 @@
 import {
-  Box,
   Center,
   Flex,
   Grid,
@@ -54,7 +53,7 @@ const Profile = () => {
         console.log("data", res);
         setFormData(res);
       });
-  }, []);
+  }, [myId]);
 
   //   fetchUsers();
   const toast = useToast();

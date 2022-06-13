@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich1",
+      "username": "Kamren1",
+      "email": "Lucio_Hettinger@annie.ca1",
+      "address": {
+        "street": "Skiles Walks",
+        "city": "Roscoeview"
+      },
+      "phone": "(254)954-1289"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "street": "Rex Trail",
+        "city": "Howemouth"
+      },
+      "phone": "210.067.6132"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "street": "Ellsworth Summit",
+        "city": "Aliyaview"
+      },
+      "phone": "586.493.6943 x140"
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "street": "Dayna Park",
+        "city": "Bartholomebury"
+      },
+      "phone": "(775)976-6794 x41206"
+    },
+    {
+      "name": "prajwol",
+      "email": "lasa@mail.com",
+      "id": 17
+    },
+    {
+      "name": "bigyan",
+      "email": "a@mail.com",
+      "id": 11
+    },
+    {
+      "name": "udip",
+      "email": "udiprai@gmail.com",
+      "id": 20
+    }
+  ]
+}

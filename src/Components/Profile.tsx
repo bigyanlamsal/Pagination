@@ -22,7 +22,7 @@ import {
 } from "@chakra-ui/react";
 import * as React from "react";
 import { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
@@ -39,6 +39,8 @@ const Profile = () => {
   const [profileData, setProfileData] = React.useState<any>([
     { address: { street: "" } },
   ]);
+
+  const navigate = useNavigate();
 
   const myId: any = useParams().id;
 
@@ -85,6 +87,7 @@ const Profile = () => {
           duration: 2000,
           isClosable: true,
         });
+        setTimeout(() => navigate("/"), 500);
       }
     });
   };
